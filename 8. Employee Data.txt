@@ -15,7 +15,7 @@ public class problem2 {
         System.out.printf("First name: %s%n", firstName);
         System.out.printf("Last name: %s%n", lastName);
         System.out.printf("Age: %d%n",age);
-        System.out.printf("Gender: %c",c);
+        System.out.printf("Gender: %c%n",c);
         System.out.printf("Personal ID: %d%n", personalID);
         System.out.printf("Unique Employee number: %d%n",number);
     }
