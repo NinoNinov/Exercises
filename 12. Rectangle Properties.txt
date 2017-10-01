@@ -1,0 +1,30 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+
+//Create a program to calculate rectangle’s perimeter, area and diagonal by given its width and height.
+
+public class Problem01 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        double weight = Double.parseDouble(scanner.nextLine());
+        double height = Double.parseDouble(scanner.nextLine());
+
+        double perimter = (weight+height)*2;
+        double area = weight*height;
+        double diagonal = Math.sqrt(weight*weight+height*height);
+
+
+
+        DecimalFormat format = new DecimalFormat("0.#############");
+        System.out.println(format.format(perimter));
+        System.out.println(format.format(area));
+        System.out.println(format.format(diagonal));
+
+
+
+
+
+    }
+}
