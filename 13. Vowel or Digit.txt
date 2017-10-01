@@ -1,0 +1,24 @@
+import java.util.Scanner;
+//Create a program to check if given symbol is digit, vowel or any other symbol.
+
+public class Problem01 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        char symbol = scanner.nextLine().charAt(0);
+
+        if(Character.isDigit(symbol)){
+            System.out.println("digit");
+        }
+        else if(symbol == 65 ||symbol == 69 ||symbol == 73 ||symbol == 79 ||symbol == 85 ||symbol == 89 ||symbol == 97 ||symbol == 101 ||symbol == 105 ||symbol == 111 ||symbol == 117 ||symbol == 121 ){
+            System.out.println("vowel");
+        }
+        else {
+            System.out.println("other");
+        }
+
+
+
+
+    }
+}
